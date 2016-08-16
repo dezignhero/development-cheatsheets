@@ -10,3 +10,6 @@ AMI uses Yum as the package manager. Apt-get is not available but could be insta
 ##Examples
 
 ```yum remove php*``` - Removes all PHP matching pacakges
+
+###This allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
+```sudo chmod -R 775 /var/www/html```

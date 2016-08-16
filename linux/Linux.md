@@ -75,7 +75,7 @@ sudo chown -R apache:apache /var/www/html (this is so wordpress can install)
 
 ```chgrp``` - change a file's group owner
 
-###This allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
+###This allows FileZilla or any other program logged in the ability to change files and folders in the html folder only. 
 ```sudo chmod -R 775 /var/www/html```
 
 ###History
