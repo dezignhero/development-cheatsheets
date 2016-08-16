@@ -28,9 +28,7 @@ ps -ef | grep mysql
 
 ###Report Server Uptime
 
-```
-uptime
-```
+```uptime```
 
 ##Permissions
 
