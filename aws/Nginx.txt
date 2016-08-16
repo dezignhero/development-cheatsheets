@@ -1,0 +1,7 @@
+// Grant ownership of directory to either username or group
+sudo chown -R <username>:<group> /var/www/html
+> sudo chown -R nginx:www /var/www/html (this is default so pages can be served)
+> sudo chown -R nginx:nginx /var/www/html (this is so wordpress can install)
+
+// Solves Session writing bug reported by New Relic
+> sudo chown -R root:nginx /var/lib/php/session

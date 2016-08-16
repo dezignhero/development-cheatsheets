@@ -1,0 +1,6 @@
+removes "-default" from all filenames
+
+find . -type f -name "*-default*" \
+-exec sh -c 'echo mv "$0" "${0/-default/}"' '{}' \;
+
+remove the "echo" when you're sure
