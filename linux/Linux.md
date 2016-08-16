@@ -64,8 +64,11 @@ sudo chown -R apache:apache /var/www/html (this is so wordpress can install)
 ###Generic
 
 ```chmod``` - modify file access rights
+
 ```su``` - temporarily become the superuser
+
 ```chown``` - change file ownership
+
 ```chgrp``` - change a file's group owner
 
 ###This allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
