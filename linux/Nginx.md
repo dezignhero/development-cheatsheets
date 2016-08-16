@@ -85,6 +85,8 @@ sudo chown -R nginx:nginx /var/www/html (this is so wordpress can install)
 
 [https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04)
 
+---
+
 ##Troubleshooting
 
 ###Connect to PHP-FPM Sock Failed
