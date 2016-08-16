@@ -27,11 +27,15 @@ ps -ef | grep mysql
 ```
 
 ###Report Server Uptime
-```uptime```
+
+```
+uptime
+```
 
 ##Permissions
 
 ###Grant ownership of directory to either username or group
+
 ```
 sudo chown -R <username>:<group> /var/www/html
 sudo chown -R apache:www /var/www/html (this is default so pages can be served)
