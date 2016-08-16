@@ -1,21 +1,18 @@
-I  usually changed my MAC address with the following commands:
+#OSX MAC Address
+
+Change my MAC address with the following commands:
 
 ## Get a New MAC Address
-```
-openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'
-```
+```openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'```
 
 ## Changing the MAC Address
-```
-sudo ifconfig en0 ether d4:13:b3:e4:f8:12
-```
+```sudo ifconfig en0 ether d4:13:b3:e4:f8:12```
 
-When I enter:
-```
-ifconfig en0 |grep ether
-```
+### When I enter:
 
-### I still get the old MAC address :( - Who can help? I would love to have a script or system to automatically change it on system boot.
+```ifconfig en0 |grep ether```
+
+I still get the old MAC address.  Is there a script to automatically change it on system boot?
 
 ```
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
