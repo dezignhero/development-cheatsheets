@@ -21,8 +21,10 @@ top
 ```killall -KILL php-fpm``` or ```killall -9 php-fpm```
 
 ###Report Snapshot of Service
-```ps xav | grep httpd```
-```ps -ef | grep mysql```
+```
+ps xav | grep httpd
+ps -ef | grep mysql
+```
 
 ###Report Server Uptime
 ```uptime```
