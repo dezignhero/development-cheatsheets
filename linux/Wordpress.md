@@ -5,6 +5,8 @@ Also see ```Linux Commands.md``` for complete list.
 [http://blog.david-jensen.com/wordpress-amazon-ec2-apache-permissions-wordpress/](http://blog.david-jensen.com/wordpress-amazon-ec2-apache-permissions-wordpress/)
 [https://gist.github.com/philihp/2befe79839d7f59ac0ea](https://gist.github.com/philihp/2befe79839d7f59ac0ea)
 
+---
+
 ##Permissions
 
 ###Grant ownership of directory to either username or group
@@ -40,6 +42,8 @@ Replace apache:www with nginx:www when using Nginx.
 
 ###This allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
 ```sudo chmod -R 775 /var/www/html```
+
+---
 
 ##Compression
 

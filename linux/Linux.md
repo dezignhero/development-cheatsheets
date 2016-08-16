@@ -34,6 +34,8 @@ Shows how long it's been since server was started.
 uptime
 ```
 
+---
+
 ##Permissions
 
 ###Grant ownership of directory to either username or group
@@ -65,6 +67,8 @@ sudo chown -R apache:apache /var/www/html (this is so wordpress can install)
 ###Make sure .pem file is chmod 400 (otherwise can’t ssh in)
 ```chmod 400 <filename>.pem```
 
+---
+
 ###Generic
 
 ```chmod``` - modify file access rights
@@ -94,6 +98,8 @@ Show prior commands entered in console.
 
 ###Unzip a file to directory
 ```unzip file.zip -d /<directory>```
+
+---
 
 ##Directory
 

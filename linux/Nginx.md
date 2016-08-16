@@ -11,6 +11,8 @@ Main files used when running.  If it has .default it means it's the included sam
 
 ```/etc/php-fpm.d/www.conf``` - PHP matching config
 
+---
+
 ##Nginx.conf
 
 Note: ```fastcgi_pass	127.0.0.1:9000``` works much better than using ```/var/run/php-fpm/php-fpm.sock```.  Must be matched by ```www.conf ``` setting for ```listen = 127.0.0.1:9000```
@@ -39,6 +41,8 @@ server {
 }
 ```
 
+---
+
 ##PHP-FPM www.conf
 
 To match Nginx settings, must use the following.
@@ -53,6 +57,8 @@ listen = 127.0.0.1:9000
 ```
 
 Don't forget to ```/etc/init.d/php-fpm restart``` and ```/etc/init.d/nginx restart``` or ```service nginx restart```
+
+---
 
 ###Permissions
 

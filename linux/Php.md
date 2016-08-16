@@ -3,12 +3,16 @@
 ##Running Service
 ```sudo service php-fpm restart```
 
+---
+
 ##Directories & Files
 
 Main files used when running.  If it has .default it means it's the included sample implementation.
 
 ```/etc/php-fpm.d/www.conf``` - Main config
 ```/etc/nginx/nginx.conf``` - Nginx matching config
+
+---
 
 ##Www.conf Config
 
