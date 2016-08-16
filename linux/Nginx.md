@@ -13,7 +13,7 @@ Main files used when running.  If it has .default it means it's the included sam
 
 ##Nginx.conf
 
-Note: ```fastcgi_pass	127.0.0.1:9000``` works much better than using ```/var/run/php-fpm/php-fpm.sock```.  Must be matched by Php.ini setting for ```listen = 127.0.0.1:9000```
+Note: ```fastcgi_pass	127.0.0.1:9000``` works much better than using ```/var/run/php-fpm/php-fpm.sock```.  Must be matched by ```www.conf ``` setting for ```listen = 127.0.0.1:9000```
 
 ```
 server {
