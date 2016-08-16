@@ -40,8 +40,10 @@ Replace apache:www with nginx:www when using Nginx.
 ###Make sure .pem file is chmod 400 (otherwise can’t ssh in)
 ```chmod 400 <filename>.pem```
 
-###This allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
-```sudo chmod -R 775 /var/www/html```
+###External Clients
+
+```sudo chmod -R 775 /var/www/html``` - Allows FileZilla or any other program logged in as ec2-user the ability to change files and folders in the html folder only. 
+
 
 ---
 
