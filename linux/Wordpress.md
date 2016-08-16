@@ -17,7 +17,7 @@ sudo chown -R apache:www /var/www/html (this is default so pages can be served)
 sudo chown -R apache:apache /var/www/html (this is so wordpress can install)
 ```
 
-Replace apache:www with nginx:www when using Nginx.
+Replace ```apache:www ``` with ```nginx:www ``` when using Nginx.
 
 ###Add username to group
 ```sudo usermod -a -G <group> <username>```
