@@ -28,7 +28,11 @@ ps -ef | grep mysql
 
 ###Report Server Uptime
 
-```uptime ```
+Shows how long it's been since server was started.
+
+```
+uptime
+```
 
 ##Permissions
 
@@ -47,7 +51,7 @@ sudo chown -R apache:apache /var/www/html (this is so wordpress can install)
 ```groups <username>```
 
 ###Groups on System
-```cat /etc/group |cut -d: -f1```
+```cat /etc/group | cut -d: -f1```
 
 ###Members of Groupname
 ```grep '<group>' /etc/group```
