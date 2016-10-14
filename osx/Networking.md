@@ -10,7 +10,7 @@ Change my MAC address with the following commands:
 
 ### When I enter:
 
-```ifconfig en0 |grep ether```
+```ifconfig en0 | grep ether```
 
 I still get the old MAC address.  Is there a script to automatically change it on system boot?
 
@@ -21,7 +21,7 @@ networksetup -detectnewhardware
 ```
 
 ###Read Current Address
-```ifconfig en0 | grep ether
+```ifconfig en0 | grep ether```
 
 ###Check Who's on the Network
 ```arp -a```
