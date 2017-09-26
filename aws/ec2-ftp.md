@@ -147,4 +147,6 @@ _Alternatively, if you are using redhat, another way to manage your services is 
 
 **This documented is generated based on http://stackoverflow.com/questions/7052875/setting-up-ftp-on-amazon-cloud-server?answertab=votes#answer-11404078**
 
-Thanks.
+### Wordpress Plugin Updates
+
+Add ```define('FS_METHOD', 'direct');``` to the bottom of wp-config.php
